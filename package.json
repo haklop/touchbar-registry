@@ -1,0 +1,40 @@
+{
+  "name": "touchbar-registry",
+  "main": "./lib/index",
+  "version": "0.1.0",
+  "description": "A container for indicators on the Apple Touch bar",
+  "keywords": [
+  ],
+  "repository": "https://github.com/atom/touch-bar",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.19.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint": "^3.2.2",
+    "eslint-config-xo-space": "^0.15.0"
+  },
+  "providedServices": {
+    "touchbar-registry": {
+      "description": "A container for indicators on the Apple Touch bar",
+      "versions": {
+        "0.1.0": "provideTouchBar"
+      }
+    }
+  },
+  "eslintConfig": {
+    "extends": "xo-space/esnext",
+    "env": {
+      "mocha": true
+    },
+    "rules": {
+      "no-console": "error",
+      "camelcase": "warn"
+    },
+    "globals": {
+      "atom": true
+    }
+  }
+}

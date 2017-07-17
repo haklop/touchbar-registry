@@ -4,7 +4,7 @@ An abstraction of the touchbar APIs provided by Electron.
 
 ## API
 
-This package provides a service that you can use in other Atom packages. To use it, include `status-bar` in the `consumedServices` section of your `package.json`:
+This package provides a service that you can use in other Atom packages. To use it, include `touchbar-registry` in the `consumedServices` section of your `package.json`:
 
 ```json
 {

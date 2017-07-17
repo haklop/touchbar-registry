@@ -1,11 +1,11 @@
 {
   "name": "touchbar-registry",
   "main": "./lib/index",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "A container for indicators on the Apple Touch bar",
   "keywords": [
   ],
-  "repository": "https://github.com/atom/touch-bar",
+  "repository": "https://github.com/haklop/touchbar-registry.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.19.0 <2.0.0"

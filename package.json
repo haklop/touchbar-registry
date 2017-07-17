@@ -1,7 +1,7 @@
 {
   "name": "touchbar-registry",
   "main": "./lib/index",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A container for indicators on the Apple Touch bar",
   "keywords": [],
   "repository": "https://github.com/haklop/touchbar-registry.git",

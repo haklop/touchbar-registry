@@ -35,8 +35,8 @@ consumeTouchBar(touchbarRegistry) {
 
 The `touchbar-registry` API has four methods:
 
-  * `addItem({ item })` - Add an item on the touchBar. Item can be any [items available on Electron](https://github.com/electron/electron/blob/master/docs/api/touch-bar.md)
-  * `setEscapeItem({ item })` - Replace the escape button on the touch bar when set. Settings to null restore the default escape button. Item can be any [escapeItem](https://github.com/electron/electron/blob/master/docs/api/touch-bar.md) available on Electron.
+  * `addItem(item, priority)` - Add an item on the touchBar. Lower priority item are placed further to the left. Item can be any [items available on Electron](https://github.com/electron/electron/blob/master/docs/api/touch-bar.md)
+  * `setEscapeItem(item )` - Replace the escape button on the touch bar when set. Settings to null restore the default escape button. Item can be any [escapeItem](https://github.com/electron/electron/blob/master/docs/api/touch-bar.md) available on Electron.
   * `getItems()` - Retrieve all of the items on the touch bar.
   * `getRightTiles()` - Retrieve the item of the escape button.
 

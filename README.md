@@ -45,3 +45,5 @@ The `touchbar-registry` API has four methods:
 ## License
 
 This Project is licensed under the terms of MIT License, check the license file for more info.
+
+Inspired by https://github.com/atom/status-bar

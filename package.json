@@ -20,6 +20,7 @@
     "touchbar-registry": {
       "description": "A container for indicators on the Apple Touch bar",
       "versions": {
+        "0.2.0": "provideTouchBar",
         "0.1.0": "provideTouchBar"
       }
     }

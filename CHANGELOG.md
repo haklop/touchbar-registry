@@ -1,3 +1,6 @@
+## 0.3.2
+* Add refresh method.
+
 ## 0.3.0
 * Add getItem and removeItem methods.
 

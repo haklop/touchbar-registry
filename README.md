@@ -41,6 +41,24 @@ The `touchbar-registry` API has four methods:
   * `getItem(id)` - Retrieve the item with the given id.
   * `removeItem(id)` - Remove the item with the given id.
   * `getRightTiles()` - Retrieve the item of the escape button.
+  * `refresh()` - Force the touch bar to refresh. Usefull to close a popover button :
+
+```javascript
+new TouchBarPopover({
+  label: 'a popover',
+  items: [
+    new TouchBarButton({
+      label: 'Button to display in the popover',
+      click: () => {
+        // do some stuff
+        console.log('Hey');
+
+        touchbarRegistry.refresh(); // this is closing the popover
+      }
+    })
+  ]
+});
+```
 
 ## License
 
